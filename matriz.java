@@ -13,6 +13,11 @@ public static void main(String[] args) {
         }
         System.out.println("");
     }
+    /*(x,y)
+    (0,0)(0,1)(0,2)
+    (1,0)(posicionJugador(x,y))(1,2)
+    (2,0)(2,1)(2,2)
+    */
     System.out.println("");
     for (int i = 1; i < 3; i++) {//fila
         for (int j = 1; j < 2; j++) {//columna
