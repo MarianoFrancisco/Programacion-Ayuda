@@ -32,11 +32,27 @@ public static void main(String[] args) {
         }
         System.out.println("");
     }
-    for (int i = 1; i < 3; i++) {//fila
-        for (int j = 1; j < 2; j++) {//columna
-            System.out.println(a[i][j]+"-"+a[i][j+1]);
-            j++;
+    
+    for (int i = 1; i <= 4; i++) {//fila
+
+        //i=fila3
+        for (int j = 1; j <= 4; j++) {//columna
+            //j=columnas
+            //i=3,j=1
+            //j=1,j=2,j=3
+
+            //System.out.println(a[i][j]+"-"+a[i][j+1]);
+            //j++;
         }
+        //i=2+1=3
     }
+    /*
+    matrices normales
+            0(x,y)    1     2(x,y)
+    i=0->// j=1,    j=2,    j=3
+    i=1->// j=1,    j=2,    j=3
+            (x,y)         
+    i=2->// j=1,    j=2,    j=3
+    */
 }
 }
